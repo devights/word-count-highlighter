@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    var input = $("#input").val();
+    process_input(input);
     $("button").click(function(){
         var input = $("#input").val();
         process_input(input);
