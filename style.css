@@ -1,0 +1,21 @@
+#input {
+    width: 600px;
+    height: 400px;
+}
+
+#output {
+    float: left;
+    width: 600px;
+}
+#key {
+    width: 100px;
+    float: left;
+}
+
+#output_area {
+    width: 100%;
+}
+
+button {
+    display:block;
+}
