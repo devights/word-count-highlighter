@@ -8,10 +8,12 @@ $(document).ready(function(){
 
 
 function process_input(input){
+    input = input.replace(/\n/g, "<br />");
     var sentences = input.split(/\.|\?|\!/);
 
     var html = "",
         color_map = new ColorMap();
+
 
     $.each(sentences, function(i, sentence) {
         var trimmed = sentence.trim();
